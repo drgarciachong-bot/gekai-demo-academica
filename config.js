@@ -1,1 +1,1 @@
-window.GEKAI_CONFIG = { n8nFormUrl: 'https://xelaleph.app.n8n.cloud/form/gekai-consultas-demo', gptUrl: '' };
+window.GEKAI_CONFIG = { n8nFormUrl: 'https://xelaleph.app.n8n.cloud/form/899fbedf-0cb6-4313-bf7a-526e778aa175', gptUrl: '' };
