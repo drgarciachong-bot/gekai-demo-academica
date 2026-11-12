@@ -1,14 +1,16 @@
-# Gekai · Demo académica
+# Gekai · Web comercial
 
-Web estática azul para el caso de orientación inicial sobre bariátrica y balón Allurion. Usa exclusivamente datos ficticios. El formulario local es un simulador de reglas, no el GPT ni el workflow con IA requerido.
+Web estática azul y celeste de bariátrica y balón Allurion, rediseñada con fotografías del Instagram de Gekai por indicación del propietario. Portada fotográfica, tratamientos, equipo, publicaciones enlazadas a Instagram, FAQ y contacto.
 
-Web prevista en GitHub Pages: https://drgarciachong-bot.github.io/gekai-demo-academica/
+https://drgarciachong-bot.github.io/gekai-demo-academica/
 
-Repositorio: https://github.com/drgarciachong-bot/gekai-demo-academica
+## Interacciones y movimiento
+Entrada suave de portada; aparición de secciones al desplazarse; cinta animada; efectos al pasar sobre fotos y botones; FAQ desplegable; guía rápida de respuestas predefinidas. La preferencia del sistema de movimiento reducido desactiva animaciones.
 
-Abrir index.html o servir con `python -m http.server 8765` en esta carpeta. No requiere instalación ni claves. Los enlaces reales a n8n y GPT se configuran en config.js después de verificarlos. No contiene analítica ni almacenamiento de consultas.
+No recoge ni transmite datos. La guía rápida no usa IA. Los enlaces n8n/GPT en config.js permanecen vacíos hasta que estén verificados. El CTA de contacto abre el Instagram de la marca.
 
-Materiales: 01 caso y brecha; 02 conocimiento; 03 instrucciones GPT; 04 pruebas; 05 guion de presentación posterior; PROMPT_CLAUDE_CODE.md continuidad; ESTADO_PROYECTO.md estado comprobado.
+## Desarrollo
+Abrir index.html o servir con `python -m http.server 8765`. Sin instalación ni claves API. JavaScript y CSS nativos; Google Fonts con alternativas locales. Fotografías servidas como WebP. Fuentes en assets/FUENTES.md.
 
-La identidad azul es provisional para la tarea. No contiene tarifas ni testimonios. No equivale a un servicio médico habilitado. Revisar conocimiento comercial real antes de presentar ese requisito como cumplido.
+Los documentos 01–05 conservan el contexto de la tarea. El rediseño no cambia los bloqueos previos del GPT ni de n8n. No presentar esos requisitos como completos.
 
